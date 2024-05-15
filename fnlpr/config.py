@@ -1,7 +1,7 @@
-HOME_DIR = '/home/student/fnlpr'  # путь к папке с проектом
-IAM_TOKEN = f'{HOME_DIR}/creds/iam_token.txt'  # файл для хранения iam_token
-FOLDER_ID = f'{HOME_DIR}/creds/folder_id.txt'  # файл для хранения folder_id
-BOT_TOKEN = f'{HOME_DIR}/creds/bot_token.txt'  # файл для хранения bot_token
+HOME_DIR = '/home/student/botbot'  # путь к папке с проектом
+IAM_TOKEN = f'{HOME_DIR}/botbot/creds/iam_token.txt'  # файл для хранения iam_token
+FOLDER_ID = f'{HOME_DIR}/botbot/creds/folder_id.txt'  # файл для хранения folder_id
+BOT_TOKEN = f'{HOME_DIR}/botbot/creds/bot_token.txt'  # файл для хранения bot_token
 
 MAX_USERS = 3  # максимальное кол-во пользователей
 MAX_GPT_TOKENS = 120  # максимальное кол-во токенов в ответе GPT
