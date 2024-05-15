@@ -1,4 +1,4 @@
-HOME_DIR = '/home/student/finalpr'  # путь к папке с проектом
+HOME_DIR = '/home/student/fnlpr'  # путь к папке с проектом
 IAM_TOKEN = f'{HOME_DIR}/creds/iam_token.txt'  # файл для хранения iam_token
 FOLDER_ID = f'{HOME_DIR}/creds/folder_id.txt'  # файл для хранения folder_id
 BOT_TOKEN = f'{HOME_DIR}/creds/bot_token.txt'  # файл для хранения bot_token
