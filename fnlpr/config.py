@@ -12,7 +12,7 @@ MAX_USER_STT_BLOCKS = 10  # 10 аудиоблоков
 MAX_USER_TTS_SYMBOLS = 5_000  # 5 000 символов
 MAX_USER_GPT_TOKENS = 2_000  # 2 000 токенов
 
-LOGS = f'{HOME_DIR}/logs.txt'  # файл для логов
+LOGS = f'{HOME_DIR}/botbot/creds/logs.txt'  # файл для логов
 DB_FILE = f'{HOME_DIR}/messages.db'
 SYSTEM_PROMPT = [{'role': 'system', 'text': 'Ты - добрая и отзывчивая девушка, которая всегда готова выслушать и '
                                             'поддержать любой разговор.'
