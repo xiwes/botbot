@@ -64,4 +64,5 @@ def get_creds():
 # чтение bot_token из файла
 def get_bot_token():
     with open(BOT_TOKEN, 'r') as f:
-        return f.read().strip()
+        data = json.load(f)
+        return data['BOT_TOKEN']
